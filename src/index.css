@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #28b16d;
+}
+
+.input {
+  @apply w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-green-500;
+}
+
+.input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d1fae5;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #22c55e;
+  box-shadow: 0 0 0 2px #dcfce7;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #047857;
+}
