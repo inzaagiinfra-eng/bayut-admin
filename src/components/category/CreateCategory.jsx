@@ -60,7 +60,7 @@ const CreateCategory = () => {
             id="category"
             type="text"
             {...register("name", { required: "Category is required" })}
-            className="p-2 w-52 border-fuchsia-400 sm:w-64 md:w-72 lg:w-80 xl:w-[350px] border  rounded-md focus:outline-none focus:ring-2 focus:ring-fuchsia-500"
+            className="p-2 w-52 border-fuchsia-400 sm:w-64 md:w-72 lg:w-80 xl:w-88 border  rounded-md focus:outline-none focus:ring-2 focus:ring-fuchsia-500"
           />
 
           {errors.name && (
